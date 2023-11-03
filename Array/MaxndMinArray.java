@@ -1,4 +1,4 @@
-package com.example.dsa;
+
 
 import java.util.Scanner;
 
@@ -32,5 +32,6 @@ public class MaxndMinArray {
 
         long result = findsum(arr);
         System.out.println("Sum:"+ result);
+        sc.close();
     }
 }
